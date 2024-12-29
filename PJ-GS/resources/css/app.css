@@ -1,0 +1,38 @@
+/* CSS par défaut de Laravel Breeze */
+
+/* Tes styles personnalisés */
+.container-xxl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.authentication-wrapper {
+    width: 100%;
+}
+
+.authentication-inner {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    background-color: #fff;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* ... Autres styles personnalisés ... */
+
+/* Style pour les erreurs de validation */
+.input-error {
+    color: #e53e3e;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.input-error::before {
+    content: "⚠ ";
+}
